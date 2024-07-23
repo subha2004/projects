@@ -1,0 +1,482 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 10vh; 
+    width: 10px;
+}
+
+.navbar {
+    width: 150px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    
+    padding-left: 20px; 
+    z-index: 1000;
+    padding-bottom: 0%;
+}
+
+.navbar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(19, 10, 10);
+    display: block;
+    border-radius: 25px; 
+    margin-bottom: 15px;
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: #13b0c8;
+    
+}
+
+.center {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 1200px;
+    position: fixed;
+    top: 220px;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+    font-size: 44px;
+    color: rgb(65, 62, 62);  
+}
+
+.img {
+   
+    background-attachment: fixed; 
+
+    text-align: center;
+    background-position: center;
+    z-index: -1;
+    display: flex;
+    height: 115vh; 
+
+}
+
+
+.img {
+
+    text-align: center;
+    padding-top:0em;
+    
+  }
+  * { color:#044e5f; text-decoration: none;}
+  .abt{
+    
+    width: 100%;
+  
+   
+  }
+
+  
+
+  .abt h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.abt p{
+    font-size: 18px;
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abimg{
+    width: 30px;
+    height: 0px;
+    padding-left: 300px;
+    padding-top: 60px;
+}
+.abtxt h3{
+    padding-left: 1000px;
+    padding-top: 0px;
+    font-size: 25px;
+}
+.abtxt p{
+    padding-left: 1000px;
+    padding-top: 0px;
+    font-size: 15px;
+    padding-right: 30px;
+}
+.ul1{
+    padding-left: 1120px;
+}
+.ress h3 {
+    padding-top: 20px;
+        font-size: 45px;
+        text-align: center;
+ }
+.ress p{
+    font-size: 18px;
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ress h2{
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 400px;
+}
+
+.ress h1{
+    text-align: justify;
+    padding-left: 550px;
+    padding-top: 0px;
+    font-size: 25px;
+}
+.ress ul {
+    padding-left: 560px;
+}
+.portfolio h3{
+    font-size: 45px;
+    text-align: center;
+}
+.portfolio p{
+    font-size: 18px;
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Container for the navbar */
+.pic {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center items */
+    gap: 10px; /* Add gap to control space between items */
+    margin-top: 50px; /* Add some margin to separate from the content above */
+}
+
+/* Links within the navbar */
+.pic a {
+    display: block;
+    color: rgb(17, 2, 2);
+    text-align: center;
+    padding: 8px 15px; /* Reduce padding */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+/* Change color on hover */
+.pic a:hover {
+    background-color: #1d85ab;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+.card-text {
+    padding: 10px;
+    display: none; /* Hide the text initially */
+}
+
+.card-text p {
+    margin: 0;
+    padding: 5px 0;
+}
+.card-text:hover{
+    color:rgb(1, 16, 16);
+    font-size: 25px;
+}
+.ser h3{
+    padding-top: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+.ser p{
+    font-size: 18px;
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.dcard-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* To ensure cards wrap to the next line */
+    margin: 20px 0;
+    padding-left: 200px;
+    padding-right: 150px;
+    
+}
+
+.dcard {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.dcard:hover {
+    transform: scale(1.05);
+}
+
+.dcard img {
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+
+.dcard-text {
+    padding: 10px;
+}
+
+.dcard-text p {
+    margin: 0;
+
+    color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+   
+}
+
+.dcard-text p:hover {
+    color: rgb(4, 26, 26);
+    font-size: large;
+}
+
+.testi h3{
+    padding-top: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+.testi p{
+    font-size: 18px;
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.con h3{
+    font-size: 45px;
+    text-align: center;
+}
+.con p{
+    font-size: 18px;
+    padding-left: 400px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Contact {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.map {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 300px;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 50%;
+}
+
+.info-item {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 200px;
+}
+
+.info-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.info-item div p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px; /* Adjust as needed */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+button {
+    background-color: #227a94; /* Blue background */
+    color: white;             /* White text */
+    padding: 10px;
+    border: none;             /* No border */
+    border-radius: 5px;       
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0a6482;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 1;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer a {
+    color: #08121e;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+.conclas h3{
+    font-size: 45px;
+    text-align: center;
+}
+
+.testi img{
+  padding-left: 390px; 
+  width: 90%; 
+  padding-bottom: 25px;
+}
+
+.logo img{
+    background-color: #0865c8;
+    width: 10%;
+}
+.logo{
+    background-color: #08121e;
+}
+
+
+.abt h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    padding-bottom: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
